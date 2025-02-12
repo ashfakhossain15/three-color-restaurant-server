@@ -1,0 +1,280 @@
+{
+    "menu": {
+      "pizza": [
+        {
+          "id": 1,
+          "name": "Margherita",
+          "price": "99KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Färsk basilika"]
+        },
+        {
+          "id": 2,
+          "name": "Vesuvio",
+          "price": "109KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Skinka"]
+        },
+        {
+          "id": 3,
+          "name": "Hawaii",
+          "price": "115KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Skinka", "Ananas"]
+        },
+        {
+          "id": 4,
+          "name": "Capricciosa",
+          "price": "119KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Kronårtskocka", "Färska champinjoner", "Skinka"]
+        },
+        {
+          "id": 5,
+          "name": "Salami",
+          "price": "119KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Stark salami", "Salami napoli"]
+        },
+        {
+          "id": 6,
+          "name": "Salami Con Buffalo",
+          "price": "120KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Salami napoli", "Buffala mozzarella"]
+        },
+        {
+          "id": 7,
+          "name": "Diavola",
+          "price": "119KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Oliver", "Stark salami", "Chili", "Lök", "Vitlök"]
+        },
+        {
+          "id": 8,
+          "name": "Nduja Cipolla Rosa",
+          "price": "119KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Nduja(stark)", "Lök", "Paprika"]
+        },
+        {
+          "id": 9,
+          "name": "Pepperoni",
+          "price": "119KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Pepperoni(nötkött)", "Jalapeño"]
+        },
+        {
+          "id": 10,
+          "name": "Strana",
+          "price": "119KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Stark salami", "Gorgonzola", "Lök"]
+        },
+        {
+          "id": 11,
+          "name": "Salsiccia E Paprika",
+          "price": "119KR",
+          "ingredients": ["Italiensk mozzarella", "Salsiccia", "Paprika", "Färska körsbärstomater", "Vitlök", "Oliver"]
+        },
+        {
+          "id": 12,
+          "name": "Parma Buffala",
+          "price": "129KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Parmaskinka", "Buffala mozzarella", "Grana padano", "Ruccola"]
+        },
+        {
+          "id": 13,
+          "name": "Quattro Stagioni",
+          "price": "125KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Färska champinjoner", "Skinka", "Räkor", "Kronårtskocka"]
+        },
+        {
+          "id": 14,
+          "name": "Mexicana",
+          "price": "125KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Köttfärs(nötkött)", "Jalapeño", "Chili", "Paprika", "Lök", "Tacokrydda"]
+        },
+        {
+          "id": 15,
+          "name": "Kebab Pizza",
+          "price": "129KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Kebabkött (nötkött)", "Färska körsbärstomater", "Lök", "Pommes", "Kebabsäs"]
+        },
+        {
+          "id": 16,
+          "name": "Kyckling Pizza",
+          "price": "125KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Kyckling", "Färska körsbärstomater", "Jalapeño", "Paprika", "Lök"]
+        },
+        {
+          "id": 17,
+          "name": "Pizza Scampi",
+          "price": "129KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Scampi", "Färska körsbärstomater", "Persilja"]
+        },
+        {
+          "id": 18,
+          "name": "Tonno E Cipolla",
+          "price": "119KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Tonfisk", "Rödlök", "Oliver"]
+        },
+        {
+          "id": 19,
+          "name": "Havet Pizza",
+          "price": "129KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Musslor", "Räkor", "Tonfisk"]
+        },
+        {
+          "id": 20,
+          "name": "Vegetoriana",
+          "price": "119KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Champinjoner", "Färska körsbärstomater", "Oliver", "Kronårtskocka", "Lök", "Paprika"]
+        },
+        {
+          "id": 21,
+          "name": "Al Funghi",
+          "price": "109KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Färska champinjoner", "Oliver", "Vitlök"]
+        },
+        {
+          "id": 22,
+          "name": "Tre Colori (vit pizza)",
+          "price": "109KR",
+          "ingredients": ["Italiensk mozzarella", "Italiensk buffala mozzarella", "Färska körsbärstomater", "Grana padano", "Ruccola"]
+        },
+        {
+          "id": 23,
+          "name": "Quattro Formaggio",
+          "price": "115KR",
+          "ingredients": ["Tomatsás", "4 sorters ost (Italiensk mozzarella", "Gorgonzola", "Grana padano", "Pecorino romano)"]
+        },
+        {
+          "id": 24,
+          "name": "Bresaola",
+          "price": "129KR",
+          "ingredients": ["Tomatsás", "Italiensk mozzarella", "Bresaola", "Färska körsbärstomater", "Italiensk hårdost"]
+        }
+      ],
+      "pasta": [
+        {
+          "id": 25,
+          "name": "Manzo (nötkött)",
+          "price": "129KR",
+          "ingredients": ["Tagliatelle", "Nötkött(färska)", "Grädde", "Svamp", "Tryffelkräm", "Grana padano", "Persilja", "Färska körsbärstomater"]
+        },
+        {
+          "id": 26,
+          "name": "Alfredo",
+          "price": "129KR",
+          "ingredients": ["Penne", "Kyckling", "Grädde", "Svamp", "Tryffelkräm", "Grana padano", "Persilja"]
+        },
+        {
+          "id": 27,
+          "name": "Kyckling",
+          "price": "119KR",
+          "ingredients": ["Casareece", "Kyckling", "Tomatsás", "Chili", "Vitlök", "Persilja", "Färska körsbärstomater", "Grana padano"]
+        },
+        {
+          "id": 28,
+          "name": "Bolognese (nötkött)",
+          "price": "129KR",
+          "ingredients": ["Papadelle", "Köttfärs (färska nötkött)", "Tillagad på italienskt vis", "Persilja", "Grana padano"]
+        },
+        {
+          "id": 29,
+          "name": "Carbonara",
+          "price": "129KR",
+          "ingredients": ["Spaghetti", "Rostad pancetta", "Äggula", "Pecorino ost", "Grana padano", "Svartpeppar"]
+        },
+        {
+          "id": 30,
+          "name": "Salami",
+          "price": "119KR",
+          "ingredients": ["Fusilli pasta", "Stark salami", "Tomatsás", "Chili", "Vitlök", "Färska körsbärstomater", "Grana padano", "Persilja"]
+        },
+        {
+          "id": 31,
+          "name": "Bacon",
+          "price": "119KR",
+          "ingredients": ["Casareece", "Bacon", "Grädde", "Svartpeppar", "Grana padano", "Persilja"]
+        },
+        {
+          "id": 32,
+          "name": "Vegeteriana",
+          "price": "109KR",
+          "ingredients": ["Fusilli pasta", "Tomatsás", "Paprika", "Oliver", "Champinjoner (färska)", "Kronärtskocka", "Vitlök", "Lök", "Färska körsbärstomater", "Grana padano"]
+        },
+        {
+          "id": 33,
+          "name": "Sorrentina con bufala",
+          "price": "129KR",
+          "ingredients": ["Penne pasta", "Tomatsás", "Vitlök", "Basilika färsk", "Italiensk buffala", "Färska körsbärstomater", "Grana padano"]
+        },
+        {
+          "id": 34,
+          "name": "Quattro Formaggio",
+          "price": "119KR",
+          "ingredients": ["Penne", "4 sorters ost", "Grädde", "Persilja"]
+        },
+        {
+          "id": 35,
+          "name": "Scampi",
+          "price": "129KR",
+          "ingredients": ["Spaghetti", "Scampi", "Tomatsás", "Vitlök", "Chili", "Färska körsbärstomater", "Persilja", "Vitt vin", "Färska körsbärstomater"]
+        },
+        {
+          "id": 36,
+          "name": "Gorgonzola e salsiccia",
+          "price": "100KR",
+          "ingredients": ["Casareece", "Salsiccia", "Grädde", "Svamp", "Tryffelkräm"]
+        }
+      ],
+      "calzone": [
+        {
+          "id": 37,
+          "name": "Calzone",
+          "price": "134KR",
+          "ingredients": ["Tomatsás", "Ost", "Skinka"]
+        },
+        {
+          "id": 38,
+          "name": "Calzone kebab",
+          "price": "134KR",
+          "ingredients": ["Tomatsás", "Ost", "Kebabkött (nötkött)"]
+        },
+        {
+          "id": 39,
+          "name": "Calzone bolognese",
+          "price": "134KR",
+          "ingredients": ["Tomatsás", "Ost", "Köttfärs (nötkött)"]
+        }
+      ],
+      "sandwiches": [
+        {
+          "id": 40,
+          "name": "Macka Parma",
+          "price": "105KR",
+          "ingredients": ["Lufttorkad skinka", "Italiensk mozzarella", "Ruccola", "Tomater", "Vitlök mayonnaise"]
+        },
+        {
+          "id": 41,
+          "name": "Macka kebab",
+          "price": "105KR",
+          "ingredients": ["Kebabkött (nötkött)", "Italiensk mozzarella", "Ruccola", "Tomater", "Kebabsás"]
+        }
+      ],
+      "fries": [
+        {
+          "id": 42,
+          "name": "Pommes frites mellan",
+          "price": "20KR"
+        },
+        {
+          "id": 43,
+          "name": "Pommes frites stor",
+          "price": "40KR"
+        },
+        {
+          "id": 44,
+          "name": "Pommes och nuggets (4 stycken)",
+          "price": "40KR"
+        },
+        {
+          "id": 45,
+          "name": "Pommes och nuggets (6 stycken)",
+          "price": "60KR"
+        }
+      ]
+    }
+  }
