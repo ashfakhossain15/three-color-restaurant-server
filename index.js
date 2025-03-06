@@ -1,10 +1,13 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
+const fs = require("fs");
+const path = require("path");
 const port = process.env.PORT || 5000;
 
 app.use(cors());
 
+// Define the path to the menu.json file
 const filePath = path.join(__dirname, "menu.json");
 
 const users = [
@@ -21,11 +24,11 @@ app.get("/menu", async (req, res) => {
     console.error("Error reading menu:", error);
     res.status(500).send("Error reading menu");
   }
-})
-app.get("/", (req, res) => {
-  res.send('menu');
 });
 
+app.get("/", (req, res) => {
+  res.send("menu");
+});
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
