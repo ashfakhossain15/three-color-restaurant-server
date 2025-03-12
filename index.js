@@ -7,27 +7,13 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 
-// Define the path to the menu.json file
-const filePath = path.join(__dirname, "menu.json");
-
-const users = [
-  { id: 1, name: "John Doe" },
-  { id: 2, name: "Jane Doe" },
-  { id: 3, name: "Michael Johnson" },
-];
-
-app.get("/menu", async (req, res) => {
-  try {
-    const menu = await fs.promises.readFile(filePath, "utf8");
-    res.json(JSON.parse(menu));
-  } catch (error) {
-    console.error("Error reading menu:", error);
-    res.status(500).send("Error reading menu");
-  }
-});
+const menu = require("./data/menu.json");
 
 app.get("/", (req, res) => {
-  res.send("menu");
+  res.send("Welcome to the Food Delivery App!");
+});
+app.get("/menu", (req, res) => {
+  res.send(menu);
 });
 
 app.listen(port, () => {
