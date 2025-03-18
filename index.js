@@ -18,6 +18,10 @@ app.get("/menu", (req, res) => {
 app.get("/menu/menu/pizza/:id", (req, res) => {
   const id = req.params.id;
   const pizza = menu.menu.pizza.find((pizza) => pizza.id === parseInt(id));
+  if (!pizza) {
+    return res.status(404).json({ message: "Pizza not found" });
+  }
+  return res.json(pizza);
 });
 
 app.get("/menu/menu/pasta/:id", (req, res) => {
